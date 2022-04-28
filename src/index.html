@@ -16,23 +16,23 @@
           <div class="navigation">
             <button id="nav-btn" class="nav-btn"></button>
             <nav class="nav-closed">
-              <a href="#">domů</a>
-              <a href="#">menu</a>
-              <a href="#">galerie</a>
-              <a href="#">kontakt</a>
+              <a href="#home">domů</a>
+              <a href="#menu">menu</a>
+              <a href="#gallery">galerie</a>
+              <a href="#contacts">kontakt</a>
             </nav>
           </div>
         </div>
       </header>
       <div class="container">
-        <div class="intro">
+        <div class="intro" id="home">
           <h1>Přijď to ochutnat!</h1>
           <p>Nabízíme kvalitní kávu, útulné prostředí a perfektní servis.</p>
         </div>
       </div>
     </section>
 
-    <section class="menu">
+    <section class="menu" id="menu">
       <div class="container">
         <h2>Naše nabídka</h2>
         <p class="menu-intro">
@@ -43,7 +43,9 @@
           <div class="drink">
             <div class="drink__product">
               <div class="drink__cup">
-                <img src="https://apps.kodim.cz/daweb/cafelora/assets/cups/cappuccino.png" />
+                <img
+                  src="https://apps.kodim.cz/daweb/cafelora/assets/cups/cappuccino.png"
+                />
               </div>
               <div class="drink__info">
                 <h3>Cappuccino</h3>
@@ -79,9 +81,18 @@
       </div>
     </section>
 
-    <section class="gallery"></section>
+    <section class="gallery" id="gallery">
+      <p class="gallery-text">
+        Na místě bývalé truhlárny jsme vytvořili prostor, který nám na Smíchově
+        chyběl. Netradiční kavárnu, kde najdeš mnohem víc než jen výběrovou
+        kávu, domácí dobroty a skvělé snídaně. Součástí je taky galerie,
+        multifunkční místnost k pronájmu a dvůr, kde pod hvězdami a za doprovodu
+        té správné melodie snadno ztratíš pojem o čase a zapomeneš, že jsi v
+        centru města.
+      </p>
+    </section>
 
-    <section>
+    <section id="contacts">
       <div class="container">
         <h2>Kde nás najdete</h2>
         <div class="contacts">
@@ -90,7 +101,10 @@
             514 03 Byšky nad Jizerou <br />
             Tel: +420 775 334 427
           </div>
-          <img src="https://apps.kodim.cz/daweb/cafelora/assets/map.png" class="contacts__map" />
+          <img
+            src="https://apps.kodim.cz/daweb/cafelora/assets/map.png"
+            class="contacts__map"
+          />
         </div>
       </div>
     </section>

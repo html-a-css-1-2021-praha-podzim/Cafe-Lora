@@ -50,6 +50,10 @@ header {
   height: 5rem;
 
   background-color: #301a1a;
+
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .topbar {
@@ -246,6 +250,11 @@ nav a:hover {
   background-attachment: fixed;
 }
 
+.gallery-text {
+  background-color: rgba(59, 58, 56, 0.8);
+  padding: 6rem 4rem;
+}
+
 .contacts {
   margin-bottom: 4rem;
 
@@ -295,6 +304,10 @@ nav a:hover {
 
   .nav-closed {
     display: block;
+  }
+
+  .nav-btn {
+    display: none;
   }
 
   .intro {
